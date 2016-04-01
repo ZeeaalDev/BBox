@@ -13,6 +13,7 @@
 		F3977DA21CABEF0200C606ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3977DA11CABEF0200C606ED /* Assets.xcassets */; };
 		F3977DA51CABEF0200C606ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3977DA31CABEF0200C606ED /* LaunchScreen.storyboard */; };
 		F3977DB01CABEF0200C606ED /* BboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3977DAF1CABEF0200C606ED /* BboxTests.swift */; };
+		F3977DBB1CAD293300C606ED /* LoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3977DBA1CAD293300C606ED /* LoggerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F3977DAB1CABEF0200C606ED /* BboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3977DAF1CABEF0200C606ED /* BboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BboxTests.swift; sourceTree = "<group>"; };
 		F3977DB11CABEF0200C606ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3977DBA1CAD293300C606ED /* LoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F3977DA11CABEF0200C606ED /* Assets.xcassets */,
 				F3977DA31CABEF0200C606ED /* LaunchScreen.storyboard */,
 				F3977DA61CABEF0200C606ED /* Info.plist */,
+				F3977DBA1CAD293300C606ED /* LoggerViewController.swift */,
 			);
 			path = Bbox;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3977D9D1CABEF0200C606ED /* ViewController.swift in Sources */,
+				F3977DBB1CAD293300C606ED /* LoggerViewController.swift in Sources */,
 				F3977D9B1CABEF0200C606ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				F3977DB61CABEF0200C606ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3977DB71CABEF0200C606ED /* Build configuration list for PBXNativeTarget "BboxTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				F3977DB91CABEF0200C606ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
